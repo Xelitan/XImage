@@ -19,5 +19,5 @@ $img->load('test.tga')->save('test.bmp');
 include 'XImage.php';
 
 $img = new XImage();
-$img->load('test.png')->sepia()->roundCorner(30)->save('test.jpg');
+$img->load('test.jpg')->scale(2)->sepia()->roundCorner(30)->save('test.png');
 ```
